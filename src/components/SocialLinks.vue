@@ -10,7 +10,7 @@ const { socials } = useDataStore()
 <template>
   <FooterHeading>
     <template #heading>Social</template>
-    <nav class="text-inspire-orange">
+    <nav class="text-inspire-orange-dark">
       <ul class="flex">
         <li
           v-for="(social, index) in socials"
