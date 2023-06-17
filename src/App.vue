@@ -16,11 +16,15 @@ const { socials } = useDataStore()
   <header class="m-auto flex max-w-5xl items-center justify-between p-8">
     <div class="h-14">
       <img
-        class="h-full object-cover"
-        src="./assets/img/inspire-logo-orange-dark-brown.svg"
+        class="h-full object-cover hidden sm:block"
+        src="./assets/img/Logo_DeBasis_bDeBasis_Cyan_Dark.webp"
+        alt="Inspire Logo" />
+      <img
+        class="h-full object-cover sm:hidden"
+        src="./assets/img/Logo_DeBasis_b_Cyan_Dark.webp"
         alt="Inspire Logo" />
     </div>
-    <nav class="text-lg font-semibold text-inspire-brown-dark">
+    <nav class="text-lg font-semibold text-inspire-brown-dark pt-[14px]">
       <ul class="flex items-center space-x-4 -mt-1 sm:space-x-8">
         <li class="hidden sm:block">
           <a
