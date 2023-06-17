@@ -11,7 +11,7 @@ module.exports = {
         'inspire-orange-dark': '#14343F', // #D07418 color picker
         'inspire-brown-light': '#DDC5B8', // #DDC5B8 menukaart / #C49463 honktwee
         'inspire-brown': '#C99C6C', // #C99C6C color picker
-        'inspire-brown-dark': '#331606', // #331606 menukaart / #331606 honktwee
+        'inspire-brown-dark': '#000', // #331606 menukaart / #331606 honktwee
         'inspire-beige': '#EFDAC5', // #EFDAC5 honktwee (achtergrond kleur)
         'inspire-white': '#FAFAFA', // #FDFDFF andre / #FAFAFA instagram
         'inspire-blue-gray': '#B0C4CF', // Verf kleur voorgevel (zie cover photo mobiel)
