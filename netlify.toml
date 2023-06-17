@@ -6,7 +6,7 @@
 
 [context.production.environment]
   NODE_ENV = "development"
-  VITE_BASE_URL = "https://inspirebreda.nl"
+  VITE_BASE_URL = "https://debasisbreda.nl/"
 
 # All deploys that are not from
 # a pull/merge request or from the Production branch
@@ -15,7 +15,7 @@
 
 [context.branch-deploy.environment]
   NODE_ENV = "development"
-  VITE_BASE_URL = "https://development.inspirebreda.nl"
+  VITE_BASE_URL = "https://development.debasisbreda.nl/"
 
 # Environment variables set here
 # are available for local development environments
@@ -25,7 +25,7 @@
 
 [context.dev.environment]
   NODE_ENV = "development"
-  VITE_BASE_URL = "https://development.inspirebreda.nl"
+  VITE_BASE_URL = "https://development.debasisbreda.nl/"
 
 # More specific branch context
 [context.development]
@@ -33,7 +33,7 @@
 
 [context.development.environment]
   NODE_ENV = "development"
-  VITE_BASE_URL = "https://development.inspirebreda.nl"
+  VITE_BASE_URL = "https://development.debasisbreda.nl/"
 
 # Set configuration overrides for local
 # development environments run using Netlify Dev - except
