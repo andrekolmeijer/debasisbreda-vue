@@ -10,7 +10,7 @@
       borrel met vrienden aan onze bartafel. Met de exper&shy;tise van ons
       personeel weet je zeker dat je het juiste drankje voorgeschoteld krijgt.
       Liever een dagje rustig werken? Met onze razendsnelle internetverbinding
-      ben je klaar voor elke meeting. Kom gezellig langs en laat je inspireren!
+      ben je klaar voor elke meeting. Kom gezellig langs en begin bij de basis!
     </p>
   </div>
 </template>
