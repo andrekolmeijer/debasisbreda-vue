@@ -42,8 +42,7 @@ const smAndLarger = breakpoints.greater('sm')
         class="mt-8 w-full border-t border-inspire-brown-dark border-opacity-25 text-center text-sm font-light text-inspire-brown-dark">
         <p class="pt-8">
           Copyright &copy;
-          <span v-text="new Date().getFullYear()"></span> Inspire Coffee
-          Company. Alle rechten voorbehouden.
+          <span v-text="new Date().getFullYear()"></span> De Basis. Alle rechten voorbehouden.
         </p>
       </div>
     </div>
