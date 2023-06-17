@@ -6,8 +6,8 @@
       "@graph": [
         {
           "@type": "CafeOrCoffeeShop",
-          "name": "Inspire Coffee Company",
-          "logo": "https://inspirebreda.nl/img/inspire-logo-small.png",
+          "name": "De Basis",
+          "logo": "https://debasisbreda.nl/Logo_DeBasis_bDeBasis_Cyan_Dark.svg",
           "image": [
             "https://inspirebreda.nl/img/carousel-1.jpg",
             "https://inspirebreda.nl/img/carousel-2.jpg",
@@ -29,11 +29,10 @@
             "latitude": 52.15517,
             "longitude": 5.38721
           },
-          "url": "https://inspirebreda.nl",
+          "url": "https://debasisbreda.nl/",
           "sameAs": [
-            "https://www.instagram.com/inspirebreda/",
-            "https://www.facebook.com/inspirecoffeecompany/",
-            "https://twitter.com/inspirecoffee"
+            "https://www.instagram.com/debasisbreda/",
+            "https://www.facebook.com/debasisbreda/"
           ],
           "telephone": "+31765153272",
           "email": "breda@inspirecoffee.com",
@@ -58,36 +57,16 @@
             }
           ],
           "hasMenu": [
-            "https://inspirebreda.nl/menu/kaart-inspire-4-1.pdf",
-            "https://inspirebreda.nl/menu/kaart-inspire-4-2.pdf",
-            "https://inspirebreda.nl/menu/kaart-inspire-4-9.pdf",
-            "https://inspirebreda.nl/menu/kaart-inspire-4-3.pdf",
-            "https://inspirebreda.nl/menu/kaart-inspire-4-4.pdf",
-            "https://inspirebreda.nl/menu/kaart-inspire-4-5.pdf",
-            "https://inspirebreda.nl/menu/kaart-inspire-4-6.pdf",
-            "https://inspirebreda.nl/menu/kaart-inspire-4-7.pdf",
-            "https://inspirebreda.nl/menu/kaart-inspire-4-8.pdf"
+            "https://debasisbreda.nl/menu/kaart-inspire-4-1.pdf",
+            "https://debasisbreda.nl/menu/kaart-inspire-4-2.pdf",
+            "https://debasisbreda.nl/menu/kaart-inspire-4-9.pdf",
+            "https://debasisbreda.nl/menu/kaart-inspire-4-3.pdf",
+            "https://debasisbreda.nl/menu/kaart-inspire-4-4.pdf",
+            "https://debasisbreda.nl/menu/kaart-inspire-4-5.pdf",
+            "https://debasisbreda.nl/menu/kaart-inspire-4-6.pdf",
+            "https://debasisbreda.nl/menu/kaart-inspire-4-7.pdf",
+            "https://debasisbreda.nl/menu/kaart-inspire-4-8.pdf"
           ]
-        },
-        {
-          "@type": "SpecialAnnouncement",
-          "name": "Gesloten wegens verbouwing.",
-          "text": "Let op: i.v.m. de verbouwing van de begane grond zijn we 1 t/m 17 mei gesloten. Volg onze socials voor updates!",
-          "datePosted": "2023-04-26T08:00",
-          "expires": "2023-05-17T23:59",
-          "announcementLocation": {
-            "@type": "CafeOrCoffeeShop",
-            "name": "Inspire Coffee Company",
-            "image" : "https://inspirebreda.nl/img/banner-mobile.jpg",
-            "url": "https://inspirebreda.nl",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Veemarktstraat 4",
-              "addressLocality": "Breda",
-              "postalCode": "4811 ZE"
-            },
-            "telephone": "+31765153272"
-          }
         }
       ]
     }
