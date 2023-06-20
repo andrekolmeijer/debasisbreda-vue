@@ -16,11 +16,11 @@ const { socials } = useDataStore()
   <header class="m-auto flex max-w-5xl items-center justify-between p-8">
     <div class="h-14">
       <img
-        class="h-full object-cover hidden sm:block"
+        class="h-full object-cover hidden md:block"
         src="./assets/img/Logo_DeBasis_bDeBasis_Cyan_Dark.webp"
         alt="Logo De Basis" />
       <img
-        class="h-full object-cover sm:hidden"
+        class="h-full object-cover md:hidden"
         src="./assets/img/Logo_DeBasis_b_Cyan_Dark.webp"
         alt="Logo De Basis" />
     </div>
