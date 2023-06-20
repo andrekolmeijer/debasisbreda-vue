@@ -14,7 +14,7 @@ const { socials } = useDataStore()
 <template>
   <WelcomeAlert />
   <header class="m-auto flex max-w-5xl items-center justify-between p-8">
-    <div class="h-14">
+    <div class="h-10">
       <img
         class="h-full object-cover hidden md:block"
         src="./assets/img/Logo_DeBasis_bDeBasis_Cyan_Dark.webp"
@@ -24,8 +24,8 @@ const { socials } = useDataStore()
         src="./assets/img/Logo_DeBasis_b_Cyan_Dark.webp"
         alt="Logo De Basis" />
     </div>
-    <nav class="text-lg font-semibold text-inspire-brown-dark pt-[14px]">
-      <ul class="flex items-center space-x-4 -mt-1 sm:space-x-8">
+    <nav class="text-lg font-semibold text-inspire-brown-dark pt-[12px]">
+      <ul class="flex items-center space-x-4 sm:space-x-8">
         <li class="hidden sm:block">
           <a
             class="py-1 transition-colors duration-200 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-dark"
