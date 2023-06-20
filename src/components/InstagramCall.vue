@@ -11,7 +11,7 @@ import InstagramButton from './InstagramButton.vue'
         href="https://www.instagram.com/debasisbreda/"
         target="_blank"
         aria-label="instagram"
-        class="bg-gradient-to-r from-amber-500 via-pink-500 to-indigo-500 bg-clip-text font-medium text-transparent">
+        class="bg-gradient-to-r from-[#2A636F] via-[#2A636F] to-[#2A636F] bg-clip-text font-semibold text-transparent">
         @debasisbreda</a
       >
       om als eerste op de hoogte te zijn van onze acties, specials en
