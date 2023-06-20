@@ -11,11 +11,11 @@ const smAndLarger = breakpoints.greater('sm')
       v-if="smAndLarger"
       class="h-[225px] w-full object-cover object-top"
       src="../assets/img/banner.jpg"
-      alt="Vooraanzicht van Inspire Breda" />
+      alt="Vooraanzicht van De Basis Breda" />
     <img
       v-else
       class="h-48 w-full object-cover object-top"
       src="../assets/img/banner-mobile.jpg"
-      alt="Vooraanzicht van Inspire Breda" />
+      alt="Vooraanzicht van De Basis Breda" />
   </div>
 </template>

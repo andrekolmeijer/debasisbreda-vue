@@ -24,7 +24,7 @@ const images = [
   {
     src: 'carousel-4.jpg',
     span: 'col-span-4 row-span-2',
-    alt: 'Inspire specialiteit C-star met kruidnoten'
+    alt: 'De Basis specialiteit C-star met kruidnoten'
   },
   {
     src: 'carousel-5.jpg',
@@ -34,7 +34,7 @@ const images = [
   {
     src: 'carousel-6.jpg',
     span: 'col-span-4 row-span-1',
-    alt: 'Bovenverdieping Inspire Breda'
+    alt: 'Bovenverdieping De Basis Breda'
   },
   {
     src: 'carousel-7.jpg',
