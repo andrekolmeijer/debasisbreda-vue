@@ -1,3 +1,12 @@
+# REDIRECTS
+# https://docs.netlify.com/routing/overview/
+
+[[redirects]]
+from = "https://inspirebreda.nl/*"
+to = "https://debasisbreda.nl/:splat"
+status = 301
+
+# DEPLOYMENTS
 # https://docs.netlify.com/configure-builds/file-based-configuration/
 
 # All deploys from the Production branch
