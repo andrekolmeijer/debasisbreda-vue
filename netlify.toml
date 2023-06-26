@@ -2,9 +2,10 @@
 # https://docs.netlify.com/routing/overview/
 
 [[redirects]]
-from = "https://inspirebreda.nl/*"
-to = "https://debasisbreda.nl/:splat"
-status = 301
+  from = "https://inspirebreda.nl/*"
+  to = "https://debasisbreda.nl/:splat"
+  status = 301
+  force = true
 
 # DEPLOYMENTS
 # https://docs.netlify.com/configure-builds/file-based-configuration/
