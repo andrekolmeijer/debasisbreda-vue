@@ -1,22 +1,32 @@
-# REDIRECTS
-# https://docs.netlify.com/routing/overview/
-
-[[redirects]]
-  from = "https://inspirebreda.nl/*"
-  to = "https://debasisbreda.nl/:splat"
-  status = 301
-  force = true
-
 # DEPLOYMENTS
 # https://docs.netlify.com/configure-builds/file-based-configuration/
 
-# All deploys from the Production branch
+[build]
+  publish = "dist"
+  command = "npm run build"
+  environment = { NODE_VERSION = "18" }
+
+# Set configuration overrides for local
+# development environments run using Netlify Dev - except
+# for environment variables
+[dev]
+  publish = "dist"
+  command = "npm run dev"
+  targetPort = 3000
+
+# Production context: all deploys from the Production branch
+# set in your site’s Branches settings in the UI will inherit
+# these settings.
 [context.production]
   command = "npm run build:prod"
 
 [context.production.environment]
   NODE_ENV = "development"
   VITE_BASE_URL = "https://debasisbreda.nl"
+
+# Deploy Preview context: all deploys generated from
+# a pull/merge request will inherit these settings.
+# [context.deploy-preview]
 
 # All deploys that are not from
 # a pull/merge request or from the Production branch
@@ -37,7 +47,9 @@
   NODE_ENV = "development"
   VITE_BASE_URL = "https://development.debasisbreda.nl"
 
-# More specific branch context
+# Any property in [context.branchname], for a given
+# branchname, is the most specific, and thus overrides
+# all the less specific contexts
 [context.development]
   command = "npm run build"
 
@@ -45,8 +57,18 @@
   NODE_ENV = "development"
   VITE_BASE_URL = "https://development.debasisbreda.nl"
 
-# Set configuration overrides for local
-# development environments run using Netlify Dev - except
-# for environment variables
-[dev]
-  targetPort = 3000
+
+# REDIRECTS
+# https://docs.netlify.com/routing/overview/
+
+[[redirects]]
+  from = "https://inspirebreda.nl/*"
+  to = "https://debasisbreda.nl/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://basisbreda.nl/*"
+  to = "https://debasisbreda.nl/:splat"
+  status = 301
+  force = true
