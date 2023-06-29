@@ -8,16 +8,6 @@
           "@type": "CafeOrCoffeeShop",
           "name": "De Basis",
           "logo": "https://debasisbreda.nl/Logo_DeBasis_bDeBasis_Cyan_Dark.svg",
-          "image": [
-            "https://inspirebreda.nl/img/carousel-1.jpg",
-            "https://inspirebreda.nl/img/carousel-2.jpg",
-            "https://inspirebreda.nl/img/carousel-3.jpg",
-            "https://inspirebreda.nl/img/carousel-4.jpg",
-            "https://inspirebreda.nl/img/carousel-5.jpg",
-            "https://inspirebreda.nl/img/carousel-6.jpg",
-            "https://inspirebreda.nl/img/carousel-7.jpg",
-            "https://inspirebreda.nl/img/carousel-8.jpg"
-          ],
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Veemarktstraat 4",
