@@ -72,3 +72,15 @@
   to = "https://debasisbreda.nl/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://development.inspirebreda.nl/*"
+  to = "https://development.debasisbreda.nl/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://development.basisbreda.nl/*"
+  to = "https://development.debasisbreda.nl/:splat"
+  status = 301
+  force = true
