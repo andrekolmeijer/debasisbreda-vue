@@ -13,7 +13,7 @@ const { socials } = useDataStore()
 
 <template>
   <WelcomeAlert />
-  <header class="m-auto flex max-w-5xl items-center justify-between p-8">
+  <header class="m-auto flex max-w-5xl items-center justify-between px-4 py-8 sm:px-8">
     <div class="h-10">
       <img
         class="h-full object-cover hidden sm:block"
