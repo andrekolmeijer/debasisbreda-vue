@@ -58,7 +58,7 @@ const menukaarten = [
   <section
     id="menu"
     class="bg-inspire-orange-dark text-inspire-white overflow-x-auto">
-    <div class="m-auto pt-16 pb-8 overflow-x-auto">
+    <div class="m-auto pt-16 pb-10 overflow-x-auto">
       <div class="flex items-center space-x-6">
         <h2
           class="pl-8 text-2xl font-black uppercase tracking-normal lg:ml-auto">
@@ -76,7 +76,7 @@ const menukaarten = [
             :href="menukaart.href"
             target="_blank">
             <img
-              class="h-[450px] rounded-lg shadow-lg sm:h-auto sm:w-[550px]"
+              class="h-[450px] rounded-sm shadow-lg sm:h-auto sm:w-[550px]"
               :src="getImageUrl(menukaart.src)"
               :alt="menukaart.src" />
           </a>

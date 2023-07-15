@@ -6,7 +6,7 @@ const smAndLarger = breakpoints.greater('sm')
 </script>
 
 <template>
-  <div class="overflow-hidden sm:rounded">
+  <div class="overflow-hidden sm:rounded-sm">
     <img
       v-if="smAndLarger"
       class="h-[225px] w-full object-cover object-top"
