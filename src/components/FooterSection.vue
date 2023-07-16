@@ -30,14 +30,13 @@ const smAndLarger = breakpoints.greater('sm')
           <SocialLinks />
         </div>
       </div>
-      <div class="flex justify-evenly">
-        <!-- <FootNote v-if="smAndLarger"/> -->
-        <p
-          class="mt-8 text-center text-sm font-light italic text-inspire-brown-dark">
+      <!-- <div class="flex justify-evenly">
+        <FootNote v-if="smAndLarger"/>
+        <p class="mt-8 text-center text-sm font-light italic text-inspire-brown-dark">
           Bijgewerkt:
           <span v-text="openingstijdenGewijzigd.datum"></span>
         </p>
-      </div>
+      </div> -->
       <div
         class="mt-8 w-full border-t border-inspire-brown-dark border-opacity-25 text-center text-sm font-light text-inspire-brown-dark">
         <p class="pt-8">

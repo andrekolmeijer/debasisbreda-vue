@@ -4,7 +4,7 @@ import { useDataStore } from '../stores/DataStore'
 import FooterHeading from './FooterHeading.vue'
 import FootNote from './FootNote.vue'
 
-const { openingstijden } = useDataStore()
+const { openingstijden, openingstijdenGewijzigd } = useDataStore()
 const breakpoints = useBreakpoints(breakpointsTailwind)
 const smAndLarger = breakpoints.greater('sm')
 </script>
@@ -25,5 +25,9 @@ const smAndLarger = breakpoints.greater('sm')
       </tr>
     </table>
     <!-- <FootNote v-if="!smAndLarger" /> -->
+    <p class="mt-8 text-sm font-light italic text-inspire-brown-dark">
+      Bijgewerkt:
+      <span v-text="openingstijdenGewijzigd.datum"></span>
+    </p>
   </FooterHeading>
 </template>
