@@ -3,6 +3,7 @@ import { RouterView } from 'vue-router'
 import { useDataStore } from '@/stores/DataStore'
 import IconFacebook from './components/icons/IconFacebook.vue'
 import IconInstagram from './components/icons/IconInstagram.vue'
+import IconMenu from './components/icons/IconMenu.vue'
 import IconContact from './components/icons/IconContact.vue'
 import smoothscroll from 'smoothscroll-polyfill'
 import WelcomeAlert from './components/WelcomeAlert.vue';
@@ -34,7 +35,7 @@ const { socials } = useDataStore()
             menu
           </a>
         </li>
-        <li class="hidden sm:block">
+        <li class="hidden sm:block md:pr-8">
           <a
             class="py-1 transition-colors duration-200 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-dark"
             href="#contact"
@@ -45,8 +46,15 @@ const { socials } = useDataStore()
         <li class="block sm:hidden">
           <a
             class="py-4 transition-colors duration-200 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-dark"
+            href="#menu">
+            <IconMenu class="!h-6 !w-6" />
+          </a>
+        </li>
+        <li class="block sm:hidden">
+          <a
+            class="py-4 transition-colors duration-200 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-dark"
             href="#contact">
-            <IconContact class="!h-7 !w-7" />
+            <IconContact class="!h-6 !w-6" />
           </a>
         </li>
         <li
