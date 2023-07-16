@@ -16,7 +16,7 @@ const smAndLarger = breakpoints.greater('sm')
     id="contact"
     class="-scroll-mt-8 bg-inspire-white">
     <div
-      class="m-auto flex max-w-5xl flex-col justify-between px-4 sm:px-8 pt-16 pb-8 sm:block">
+      class="m-auto flex max-w-5xl flex-col justify-between px-4 md:px-8 pt-16 pb-8 sm:block">
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
         <div class="space-y-4 font-light text-inspire-brown-dark">
           <ContactInfo />

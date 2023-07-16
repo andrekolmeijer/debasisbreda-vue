@@ -61,17 +61,17 @@ const menukaarten = [
     <div class="m-auto pt-16 pb-10 overflow-x-auto">
       <div class="flex items-center space-x-6">
         <h2
-          class="pl-4 sm:pl-8 text-2xl font-black uppercase tracking-normal lg:ml-auto">
+          class="pl-4 md:pl-8 text-2xl font-black uppercase tracking-normal lg:ml-auto">
           Menukaarten
         </h2>
         <span class="font-medium italic text-inspire-orange">Swipe Links <span class="hidden sm:inline-block">/ Shift + Scroll</span></span>
       </div>
       <ul
-        class="flex snap-x snap-mandatory gap-4 sm:gap-6 overflow-x-auto py-8 scrollbar-hide z-50 relative">
+        class="flex snap-x snap-mandatory gap-4 md:gap-6 overflow-x-auto py-8 scrollbar-hide z-50 relative">
         <li
           v-for="(menukaart, index) in menukaarten"
           :key="index"
-          class="lg:first:pl-snap first:snap-start first:pl-4 sm:first:pl-8 flex h-full flex-shrink-0 snap-center snap-always justify-center last:snap-end last:pr-4 sm:last:pr-8">
+          class="lg:first:pl-snap first:snap-start first:pl-4 md:first:pl-8 flex h-full flex-shrink-0 snap-center snap-always justify-center last:snap-end last:pr-4 md:last:pr-8">
           <a
             :href="menukaart.href"
             target="_blank">
