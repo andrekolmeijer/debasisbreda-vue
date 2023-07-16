@@ -15,8 +15,7 @@ const smAndLarger = breakpoints.greater('sm')
   <footer
     id="contact"
     class="-scroll-mt-8 bg-inspire-white">
-    <div
-      class="m-auto flex max-w-5xl flex-col justify-between px-4 md:px-8 pt-16 pb-8 sm:block">
+    <div class="m-auto flex max-w-5xl flex-col justify-between px-4 md:px-8 pt-16 pb-4 sm:block">
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
         <div class="space-y-4 font-light text-inspire-brown-dark">
           <ContactInfo />
@@ -37,9 +36,8 @@ const smAndLarger = breakpoints.greater('sm')
           <span v-text="openingstijdenGewijzigd.datum"></span>
         </p>
       </div> -->
-      <div
-        class="mt-8 w-full border-t border-inspire-brown-dark border-opacity-25 text-center text-sm font-light text-inspire-brown-dark">
-        <p class="pt-8">
+      <div class="mt-8 w-full border-t border-inspire-brown-dark border-opacity-25 text-center text-sm font-light text-inspire-brown-dark">
+        <p class="pt-4">
           Copyright &copy;
           <span v-text="new Date().getFullYear()"></span> De Basis. Alle rechten voorbehouden.
         </p>
