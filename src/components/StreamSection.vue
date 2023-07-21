@@ -7,7 +7,7 @@
         Livestream!
       </h2>
       <p class="pt-8 text-base font-light text-center">
-        Word er bij ons gedraaid? Dan kun je dat <span class="font-semibold underline underline-offset-2">live</span> volgen via <a class="" href="https://www.twitch.tv/basisbreda"><img class=" inline-block h-6" src="../assets/img/TwitchExtrudedWordmarkPurple.png" alt="Twitch logo"></a> of op onze website.
+        Word er bij ons gedraaid? Dan kun je dat <span class="font-semibold underline underline-offset-2">live</span> volgen via <a class="" href="https://www.twitch.tv/basisbreda"><img class=" inline-block h-5" src="../assets/img/TwitchExtrudedWordmarkPurple.png" alt="Twitch logo"></a> of op onze website.
       </p>
       <div class="pt-8 flex items-center justify-center">
         <iframe
