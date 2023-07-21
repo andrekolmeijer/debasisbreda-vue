@@ -64,7 +64,7 @@ const menukaarten = [
           class="pl-4 md:pl-8 text-2xl font-black uppercase tracking-normal lg:ml-auto">
           Menukaarten
         </h2>
-        <span class="font-medium italic text-inspire-orange">Swipe Links <span class="hidden sm:inline-block">/ Shift + Scroll</span></span>
+        <span class="font-medium italic text-inspire-brown">Swipe Links <span class="hidden sm:inline-block">/ Shift + Scroll</span></span>
       </div>
       <ul
         class="flex snap-x snap-mandatory gap-4 md:gap-6 overflow-x-auto py-8 scrollbar-hide z-50 relative">
