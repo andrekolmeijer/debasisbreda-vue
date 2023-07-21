@@ -19,11 +19,11 @@ const phoneNumber = parsePhoneNumber(contact.tel)
     <nav>
       <ul>
         <li
-          class="transition-opacity duration-200 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-dark">
+          class="transition-opacity duration-200 hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-brown-dark">
           <a :href="phoneNumber.getURI()">{{ phoneNumber.formatInternational() }}</a>
         </li>
         <li
-          class="transition-opacity duration-200 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-dark">
+          class="transition-opacity duration-200 hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-brown-dark">
           <a :href="`mailto:${contact.email}`">{{ contact.email }}</a>
         </li>
       </ul>
