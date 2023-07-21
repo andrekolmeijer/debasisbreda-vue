@@ -25,7 +25,7 @@ const smAndLarger = breakpoints.greater('sm')
       </tr>
     </table>
     <!-- <FootNote v-if="!smAndLarger" /> -->
-    <p class="mt-8 text-sm font-light italic text-inspire-brown-dark">
+    <p class="mt-8 text-sm font-light italic text-inspire-brown">
       Bijgewerkt:
       <span v-text="openingstijdenGewijzigd.datum"></span>
     </p>
