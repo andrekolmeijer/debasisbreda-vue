@@ -2,7 +2,7 @@
 
 <template>
   <section class="text-inspire-white bg-inspire-brown-light">
-    <div class="m-auto px-4 md:px-8 py-16">
+    <div class="m-auto px-4 md:px-8 py-16 max-w-5xl">
       <h2 class="text-2xl font-black uppercase tracking-normal text-center">
         Live streams!
       </h2>
@@ -11,10 +11,9 @@
       </p>
       <div class="pt-8 flex items-center justify-center">
         <iframe
-          class="rounded-sm"
+          class="rounded-sm aspect-video"
           src="https://player.twitch.tv/?channel=basisbreda&parent=development.debasisbreda.nl&muted=true"
-          height="720"
-          width="1280"
+          width="100%"
           allowfullscreen>
         </iframe>
       </div>
