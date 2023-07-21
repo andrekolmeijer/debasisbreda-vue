@@ -29,7 +29,7 @@ const { socials } = useDataStore()
       <ul class="flex items-center space-x-4 sm:space-x-8">
         <li class="hidden sm:block">
           <a
-            class="py-1 transition-colors duration-200 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-dark"
+            class="py-1 transition-colors duration-200 hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-brown-dark"
             href="#menu"
             rel="nofollow">
             menu
@@ -37,7 +37,7 @@ const { socials } = useDataStore()
         </li>
         <li class="hidden sm:block md:pr-8">
           <a
-            class="py-1 transition-colors duration-200 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-dark"
+            class="py-1 transition-colors duration-200 hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-brown-dark"
             href="#contact"
             rel="nofollow">
             contact
@@ -45,14 +45,14 @@ const { socials } = useDataStore()
         </li>
         <li class="block sm:hidden">
           <a
-            class="py-4 transition-colors duration-200 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-dark"
+            class="py-4 transition-colors duration-200 hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-brown-dark"
             href="#menu">
             <IconMenu class="!h-6 !w-6" />
           </a>
         </li>
         <li class="block sm:hidden">
           <a
-            class="py-4 transition-colors duration-200 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-dark"
+            class="py-4 transition-colors duration-200 hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-brown-dark"
             href="#contact">
             <IconContact class="!h-6 !w-6" />
           </a>
