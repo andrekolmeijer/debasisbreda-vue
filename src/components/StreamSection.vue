@@ -11,7 +11,7 @@
       </p>
       <div class="pt-8 flex items-center justify-center">
         <iframe
-          src="https://player.twitch.tv/?channel=basisbreda&parent=https://development.debasisbreda.nl/&muted=true"
+          src="https://player.twitch.tv/?channel=basisbreda&parent=development.debasisbreda.nl&muted=true"
           height="720"
           width="1280"
           allowfullscreen>
