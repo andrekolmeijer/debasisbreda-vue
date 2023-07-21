@@ -60,7 +60,7 @@ const { socials } = useDataStore()
         <li
           v-for="(social, index) in socials"
           :key="index"
-          class="ml-4 transition-opacity duration-200 first:ml-0 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-dark">
+          class="ml-4 transition-opacity duration-200 text-inspire-brown-light first:ml-0 hover:text-inspire-orange focus:text-inspire-orange active:text-inspire-brown-light">
           <a
             :href="social.href"
             target="_blank"
