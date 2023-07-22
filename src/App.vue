@@ -29,7 +29,7 @@ const { socials } = useDataStore()
       <ul class="flex items-center space-x-4 sm:space-x-8">
         <li class="hidden sm:block">
           <a
-            class="py-1 transition-colors duration-200 font-medium text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
+            class="py-1 transition-colors duration-200 font-semibold text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
             href="#menu"
             rel="nofollow">
             Menu
@@ -37,7 +37,7 @@ const { socials } = useDataStore()
         </li>
         <li class="hidden sm:block md:pr-8">
           <a
-            class="py-1 transition-colors duration-200 font-medium text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
+            class="py-1 transition-colors duration-200 font-semibold text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
             href="#contact"
             rel="nofollow">
             Contact
