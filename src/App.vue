@@ -45,14 +45,14 @@ const { socials } = useDataStore()
         </li>
         <li class="block sm:hidden">
           <a
-            class="py-4 transition-colors duration-200 hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-brown-dark"
+            class="py-4 transition-colors duration-200 text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
             href="#menu">
             <IconMenu class="!h-6 !w-6" />
           </a>
         </li>
         <li class="block sm:hidden">
           <a
-            class="py-4 transition-colors duration-200 hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-brown-dark"
+            class="py-4 transition-colors duration-200 text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
             href="#contact">
             <IconContact class="!h-6 !w-6" />
           </a>
