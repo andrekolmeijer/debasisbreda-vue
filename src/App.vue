@@ -18,11 +18,11 @@ const { socials } = useDataStore()
     <div class="h-10">
       <img
         class="h-full object-cover hidden sm:block"
-        src="./assets/img/Logo_DeBasis_bDeBasis_Cyan_Dark.webp"
+        src="./assets/img/Logo_DeBasis_bDeBasis_Cyan_Cyan_Dark.webp"
         alt="Logo De Basis" />
       <img
         class="h-full object-cover sm:hidden"
-        src="./assets/img/Logo_DeBasis_b_Cyan_Dark.webp"
+        src="./assets/img/Logo_DeBasis_b_Cyan.webp"
         alt="Logo De Basis" />
     </div>
     <nav class="text-lg font-semibold text-inspire-brown-dark pt-[12px]">
