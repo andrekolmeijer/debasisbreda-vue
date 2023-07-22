@@ -25,7 +25,7 @@ const { socials } = useDataStore()
         src="./assets/img/Logo_DeBasis_b_Cyan.webp"
         alt="Logo De Basis" />
     </div>
-    <nav class="text-lg font-semibold text-inspire-brown-dark pt-[12px]">
+    <nav class="text-lg font-medium pt-[12px]">
       <ul class="flex items-center space-x-4 sm:space-x-8">
         <li class="hidden sm:block">
           <a
