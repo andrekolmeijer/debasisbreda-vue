@@ -25,22 +25,22 @@ const { socials } = useDataStore()
         src="./assets/img/Logo_DeBasis_b_Cyan.webp"
         alt="Logo De Basis" />
     </div>
-    <nav class="text-lg font-medium pt-[12px]">
+    <nav class="text-lg pt-[12px]">
       <ul class="flex items-center space-x-4 sm:space-x-8">
         <li class="hidden sm:block">
           <a
-            class="py-1 transition-colors duration-200 text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
+            class="py-1 transition-colors duration-200 font-medium text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
             href="#menu"
             rel="nofollow">
-            menu
+            Menu
           </a>
         </li>
         <li class="hidden sm:block md:pr-8">
           <a
-            class="py-1 transition-colors duration-200 text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
+            class="py-1 transition-colors duration-200 font-medium text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
             href="#contact"
             rel="nofollow">
-            contact
+            Contact
           </a>
         </li>
         <li class="block sm:hidden">
