@@ -18,13 +18,13 @@ const phoneNumber = parsePhoneNumber(contact.tel)
     </p>
     <nav>
       <ul>
-        <li
-          class="transition-opacity duration-200 font-medium text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark">
-          <a :href="phoneNumber.getURI()">{{ phoneNumber.formatInternational() }}</a>
+        <li>
+          <a class="transition-colors duration-200 font-medium text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
+             :href="phoneNumber.getURI()">{{ phoneNumber.formatInternational() }}</a>
         </li>
-        <li
-          class="transition-opacity duration-200 font-medium text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark">
-          <a :href="`mailto:${contact.email}`">{{ contact.email }}</a>
+        <li>
+          <a class="transition-colors duration-200 font-medium text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
+             :href="`mailto:${contact.email}`">{{ contact.email }}</a>
         </li>
       </ul>
     </nav>
