@@ -7,6 +7,7 @@ import IconMenu from './components/icons/IconMenu.vue'
 import IconContact from './components/icons/IconContact.vue'
 import smoothscroll from 'smoothscroll-polyfill'
 import WelcomeAlert from './components/WelcomeAlert.vue';
+import IconTwitch from './components/icons/IconTwitch.vue'
 
 smoothscroll.polyfill()
 const { socials } = useDataStore()
@@ -65,8 +66,9 @@ const { socials } = useDataStore()
             :href="social.href"
             target="_blank"
             :aria-label="social.label">
-            <IconFacebook v-if="social.label == 'facebook'" class="!h-6 !w-6"/>
-            <IconInstagram v-if="social.label == 'instagram'" class="!h-6 !w-6"/>
+            <IconFacebook v-if="social.label == 'facebook'" class="!h-6 !w-6" />
+            <IconInstagram v-if="social.label == 'instagram'" class="!h-6 !w-6" />
+            <IconTwitch v-if="social.label == 'twitch'" class="!h-6 !w-6" />
           </a>
         </li>
       </ul>

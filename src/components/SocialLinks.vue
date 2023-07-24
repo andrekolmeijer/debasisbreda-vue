@@ -2,6 +2,7 @@
 import { useDataStore } from '../stores/DataStore'
 import IconFacebook from './icons/IconFacebook.vue'
 import IconInstagram from './icons/IconInstagram.vue'
+import IconTwitch from './icons/IconTwitch.vue'
 import FooterHeading from './FooterHeading.vue'
 
 const { socials } = useDataStore()
@@ -22,6 +23,7 @@ const { socials } = useDataStore()
             :aria-label="social.label">
             <IconFacebook v-if="social.label == 'facebook'" />
             <IconInstagram v-if="social.label == 'instagram'" />
+            <IconTwitch v-if="social.label == 'twitch'" />
           </a>
         </li>
       </ul>
