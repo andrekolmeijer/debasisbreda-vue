@@ -6,16 +6,16 @@ const smAndLarger = breakpoints.greater('sm')
 </script>
 
 <template>
-  <div class="overflow-hidden sm:rounded-sm">
+  <div class="overflow-hidden sm:rounded-lg">
     <img
       v-if="smAndLarger"
-      class="h-[225px] w-full object-cover object-top"
-      src="../assets/img/banner.jpg"
+      class="w-full object-cover object-top"
+      src="../assets/img/profile_banner-480.webp"
       alt="Vooraanzicht van De Basis Breda" />
     <img
       v-else
-      class="h-48 w-full object-cover object-top"
-      src="../assets/img/banner-mobile.jpg"
+      class="h-52 w-full object-cover object-top"
+      src="../assets/img/profile_banner-480.webp"
       alt="Vooraanzicht van De Basis Breda" />
   </div>
 </template>
