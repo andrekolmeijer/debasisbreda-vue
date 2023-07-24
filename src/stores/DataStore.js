@@ -21,6 +21,10 @@ export const useDataStore = defineStore('DataStore', {
       {
         href: 'https://www.instagram.com/debasisbreda/',
         label: 'instagram'
+      },
+      {
+        href: 'https://www.twitch.tv/basisbreda',
+        label: 'twitch'
       }
     ],
     contact: {
