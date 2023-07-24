@@ -11,7 +11,7 @@ const phoneNumber = parsePhoneNumber(contact.tel)
   <FooterHeading>
     <template #heading>Contact</template>
     <p>
-      <strong>{{ contact.bedrijfsnaam }}</strong
+      <span class=" font-medium">{{ contact.bedrijfsnaam }}</span
       ><br />
       {{ contact.adres }}<br />
       {{ contact.postcode }} {{ contact.plaats }}
@@ -19,11 +19,11 @@ const phoneNumber = parsePhoneNumber(contact.tel)
     <nav>
       <ul>
         <li>
-          <a class="transition-colors duration-200 font-medium text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
+          <a class="transition-colors duration-200 font-normal text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
              :href="phoneNumber.getURI()">{{ phoneNumber.formatInternational() }}</a>
         </li>
         <li>
-          <a class="transition-colors duration-200 font-medium text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
+          <a class="transition-colors duration-200 font-normal text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
              :href="`mailto:${contact.email}`">{{ contact.email }}</a>
         </li>
       </ul>
