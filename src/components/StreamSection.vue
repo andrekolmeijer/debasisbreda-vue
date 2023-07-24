@@ -34,9 +34,9 @@ const { socials } = useDataStore()
             :href="social.href"
             target="_blank"
             :aria-label="social.label">
-            <IconFacebook v-if="social.label == 'facebook'" class="!h-6 !w-6"/>
-            <IconInstagram v-if="social.label == 'instagram'" class="!h-6 !w-6"/>
-            <IconTwitch v-if="social.label == 'twitch'" class="!h-6 !w-6"/>
+            <IconFacebook v-if="social.label == 'facebook'" class="!h-6 !w-6" />
+            <IconInstagram v-if="social.label == 'instagram'" class="!h-6 !w-6" />
+            <IconTwitch v-if="social.label == 'twitch'" class="!h-6 !w-6" />
           </a>
         </li>
       </ul>
