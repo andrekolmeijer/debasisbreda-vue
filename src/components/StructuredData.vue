@@ -24,7 +24,6 @@
             "https://www.instagram.com/debasisbreda/",
             "https://www.facebook.com/debasisbreda/"
           ],
-          "telephone": "+31765153272",
           "email": "breda@inspirecoffee.com",
           "openingHoursSpecification": [
             {

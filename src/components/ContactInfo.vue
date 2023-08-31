@@ -18,10 +18,10 @@ const phoneNumber = parsePhoneNumber(contact.tel)
     </p>
     <nav>
       <ul>
-        <li>
+        <!-- <li>
           <a class="transition-colors duration-200 font-normal text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
              :href="phoneNumber.getURI()">{{ phoneNumber.formatInternational() }}</a>
-        </li>
+        </li> -->
         <li>
           <a class="transition-colors duration-200 font-normal text-inspire-orange-dark hover:text-inspire-brown-light focus:text-inspire-brown-light active:text-inspire-orange-dark"
              :href="`mailto:${contact.email}`">{{ contact.email }}</a>
