@@ -22,7 +22,8 @@
           "url": "https://debasisbreda.nl/",
           "sameAs": [
             "https://www.instagram.com/debasisbreda/",
-            "https://www.facebook.com/debasisbreda/"
+            "https://www.facebook.com/debasisbreda/",
+            "https://www.twitch.tv/basisbreda"
           ],
           "email": "breda@inspirecoffee.com",
           "openingHoursSpecification": [
