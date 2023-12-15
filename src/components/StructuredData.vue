@@ -29,13 +29,13 @@
           "openingHoursSpecification": [
             {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-              "opens": "10:30",
-              "closes": "22:00"
+              "dayOfWeek": "Monday",
+              "opens": "11:30",
+              "closes": "02:00"
             },
             {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Friday", "Saturday"],
+              "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
               "opens": "10:30",
               "closes": "02:00"
             },
